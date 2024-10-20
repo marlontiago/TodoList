@@ -1,0 +1,87 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  height: 100vh;
+  background-color: #066acd;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 400px;
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+input{
+  height: 45px;
+  width: 240px;
+  font-size: 16px;
+  border-radius: 8px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.botaoAddItem{
+  height: 45px;
+  width: 80px;
+  margin-left: 5px;
+  background-color: #066acd;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 8px;
+  font-size: 15px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.botaoAddItem:hover{
+  background-color: #e8e3e3;
+  color: black;
+}
+
+.lista{
+  width: 100%;
+  list-style: none;
+  margin-top: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.item{
+  background: linear-gradient(to right, #066acd, #e8e3e3);
+  margin: 5px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 8px;
+
+}
+
+.excluirItem{
+  height: 25px;
+  width: 30px;
+  cursor: pointer;
+  border-radius: 8px;
+  border: none;
+}
+
+.excluirItem:hover{
+  background-color: black;
+  color: #e8e3e3;
+}
+
+h1{
+  margin-bottom: 20px;
+  margin-top: 5px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #2f84d9
+  
+}
